@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trick Progression – Wakeboard101</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="logo"><span class="logo-icon">🌊</span> Wakeboard<strong>101</strong></a>
+    <ul class="nav-links">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="beginner.html">BEGINNER SKILLS</a></li>
+      <li><a href="tricks.html" class="active">TRICK PROGRESSION</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+    <a href="beginner.html" class="btn-primary">START RIDING</a>
+    <button class="hamburger" onclick="toggleMenu()">☰</button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">HOME</a>
+    <a href="beginner.html">BEGINNER SKILLS</a>
+    <a href="tricks.html">TRICK PROGRESSION</a>
+    <a href="contact.html">CONTACT</a>
+    <a href="beginner.html" class="btn-primary" style="margin-top:1rem;">START RIDING</a>
+  </div>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-tag" style="color:#4d9fff;">PROGRESSION SYSTEM</span>
+      <h1>TRICK PROGRESSION</h1>
+      <p>A structured path from surface tricks and small jumps all the way to inverts and blind landings. Work the levels in order.</p>
+    </div>
+  </section>
+
+  <section class="skills-section">
+    <div class="container">
+      <h2>Phase 1 – Surface Tricks</h2>
+      <p class="intro">Master these before leaving the water. They train your handle mechanics and board feel that every aerial trick depends on.</p>
+      <div class="skill-grid">
+        <div class="skill-card">
+          <span class="badge badge--green">Beginner</span>
+          <h3>Ollie</h3>
+          <p>The foundation of all wake jumps. Practice the ollie on flat water before taking it to the wake.</p>
+          <ul class="skill-steps">
+            <li><span class="step-check">✓</span> Load your back foot, then snap upward with both feet simultaneously.</li>
+            <li><span class="step-check">✓</span> Bring knees up toward your chest at the peak.</li>
+            <li><span class="step-check">✓</span> Spot your landing and extend legs to absorb on touchdown.</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <span class="badge badge--green">Beginner</span>
+          <h3>Surface 180 / 360</h3>
+          <p>Spinning on the water builds the rotational awareness that aerial spins require.</p>
+          <ul class="skill-steps">
+            <li><span class="step-check">✓</span> 180: pull handle to back hip, rotate; land riding switch.</li>
+            <li><span class="step-check">✓</span> 360: continue the rotation, pass the handle behind your back.</li>
+            <li><span class="step-check">✓</span> Keep the handle close to your body throughout the rotation.</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <span class="badge badge--green">Beginner</span>
+          <h3>Butter Slides</h3>
+          <p>Nose and tail slides teach board manipulation and weight distribution in a forgiving environment.</p>
+          <ul class="skill-steps">
+            <li><span class="step-check">✓</span> Nose slide: weight over front foot, lift tail slightly.</li>
+            <li><span class="step-check">✓</span> Tail slide: weight over back foot, lift nose off the water.</li>
+            <li><span class="step-check">✓</span> Progress to linking nose → tail → nose in one smooth motion.</li>
+          </ul>
+        </div>
+      </div>
+
+      <h2>Phase 2 – Wake Jumps</h2>
+      <p class="intro">Taking the ollie to the wake unlocks your first real air. Consistency here before adding any spins or grabs.</p>
+      <div class="skill-grid">
+        <div class="skill-card">
+          <span class="badge">Intermediate</span>
+          <h3>Wake Jump (Heelside)</h3>
+          <p>Your first wake-to-wake jump. More about edge and patience than strength.</p>
+          <ul class="skill-steps">
+            <li><span class="step-check">✓</span> Progressive edge — start slow, build speed into the wake.</li>
+            <li><span class="step-check">✓</span> Maintain edge all the way to the wake lip; don't flatten off early.</li>
+            <li><span class="step-check">✓</span> Stand tall at the lip — let the wake pop you, don't jump.</li>
+            <li><span class="step-check">✓</span> Absorb landing with bent knees, weight centered.</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <span class="badge">Intermediate</span>
+          <h3>Tantrum (Beginner Invert)</h3>
+          <p>A back flip off the heelside wake. Surprisingly approachable because the rotation is natural with the wake's shape.</p>
+          <ul class="skill-steps">
+            <li><span class="step-check">✓</span> Requires consistent wake-to-wake jumps first.</li>
+            <li><span class="step-check">✓</span> Edge hard heelside, throw your head back at the lip.</li>
+            <li><span class="step-check">✓</span> Spot the water, bring handle to your hip, stomp landing.</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <span class="badge">Intermediate</span>
+          <h3>Heelside 180</h3>
+          <p>Half rotation off the heelside wake. Land riding switch across the wake — a key milestone trick.</p>
+          <ul class="skill-steps">
+            <li><span class="step-check">✓</span> Same edge approach as a clean wake jump.</li>
+            <li><span class="step-check">✓</span> At the lip, rotate your shoulders and pull the handle to your lead hip.</li>
+            <li><span class="step-check">✓</span> Land switch, ride away clean before attempting the 360.</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <span class="badge">Intermediate</span>
+          <h3>Toeside Wake Jump</h3>
+          <p>The toeside edge is harder for most riders. Master it because advanced tricks demand a strong toeside approach.</p>
+          <ul class="skill-steps">
+            <li><span class="step-check">✓</span> Many riders rush the toeside edge — stay patient, build gradually.</li>
+            <li><span class="step-check">✓</span> Hip alignment is critical: keep hips square into the wake.</li>
+            <li><span class="step-check">✓</span> Pop is slightly different — commit to standing tall at the lip.</li>
+          </ul>
+        </div>
+      </div>
+
+      <h2>Phase 3 – Advanced Spins & Inverts</h2>
+      <p class="intro">For riders with solid Phase 2 fundamentals and comfortable landing switch. These tricks require full commitment.</p>
+      <div class="skill-grid">
+        <div class="skill-card">
+          <span class="badge badge--red">Advanced</span>
+          <h3>Heelside 360</h3>
+          <p>The benchmark trick for intermediate-to-advanced progression. A full rotation with a handle pass behind the back.</p>
+          <ul class="skill-steps">
+            <li><span class="step-check">✓</span> Must have consistent heelside 180 first.</li>
+            <li><span class="step-check">✓</span> Pass the handle early — before you've completed 270° of rotation.</li>
+            <li><span class="step-check">✓</span> Spot the water through the pass and stomp with confidence.</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <span class="badge badge--red">Advanced</span>
+          <h3>Backroll</h3>
+          <p>A toeside invert — cleaner mechanically than the tantrum for many riders.</p>
+          <ul class="skill-steps">
+            <li><span class="step-check">✓</span> Strong toeside edge with full commitment at the wake lip.</li>
+            <li><span class="step-check">✓</span> Look over your lead shoulder to initiate rotation.</li>
+            <li><span class="step-check">✓</span> Tuck knees for faster rotation; extend to spot landing.</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <span class="badge badge--red">Advanced</span>
+          <h3>Moby Dick</h3>
+          <p>A heelside 360 with a nose grab — combination tricks that blend grabs with handle passes.</p>
+          <ul class="skill-steps">
+            <li><span class="step-check">✓</span> Requires clean, consistent 360 without a grab first.</li>
+            <li><span class="step-check">✓</span> Grab early in the rotation before initiating the handle pass.</li>
+            <li><span class="step-check">✓</span> Release the grab cleanly before the handle pass — timing is everything.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div style="margin-top: 2rem;">
+        <a href="contact.html" class="btn-primary" style="font-size:1rem; padding: 0.9rem 2.5rem;">Get Coaching Help →</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo"><span class="logo-icon">🌊</span> Wakeboard<strong>101</strong></div>
+      <nav class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="beginner.html">Beginner Skills</a>
+        <a href="tricks.html">Trick Progression</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <p class="footer-copy">© 2026 Wakeboard101. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

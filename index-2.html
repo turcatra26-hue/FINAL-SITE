@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wakeboard101 – Wakeboarding Guide</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <a href="index.html" class="logo">
+      <span class="logo-icon">🌊</span> Wakeboard<strong>101</strong>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">HOME</a></li>
+      <li><a href="beginner.html">BEGINNER SKILLS</a></li>
+      <li><a href="tricks.html">TRICK PROGRESSION</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+    <a href="beginner.html" class="btn-primary">START RIDING</a>
+    <button class="hamburger" onclick="toggleMenu()">☰</button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">HOME</a>
+    <a href="beginner.html">BEGINNER SKILLS</a>
+    <a href="tricks.html">TRICK PROGRESSION</a>
+    <a href="contact.html">CONTACT</a>
+    <a href="beginner.html" class="btn-primary" style="margin-top:1rem;">START RIDING</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1 class="hero-title">WAKEBOARDING<br>GUIDE</h1>
+      <div class="hero-rule"></div>
+      <p class="hero-sub">Elevate your journey from beginner riding to advanced trick progression. We provide the technical drills, safety foundations, and gear expertise you need to master the wake.</p>
+      <a href="beginner.html" class="btn-primary hero-cta">Explore Skills</a>
+    </div>
+    <div class="hero-img-wrap">
+      <img src="https://images.unsplash.com/photo-1605548109944-9d8f1c9e0b0a?w=800&q=80" alt="Wakeboarder cutting through wake" class="hero-img" onerror="this.src='https://images.unsplash.com/photo-1530870110042-98b2cb110834?w=800&q=80'" />
+      <div class="hero-img-overlay"></div>
+    </div>
+  </section>
+
+  <!-- FEATURE CARDS -->
+  <section class="features">
+    <div class="container">
+      <div class="features-grid">
+        <a href="beginner.html" class="feature-card">
+          <div class="feature-icon">🏄</div>
+          <h3>Beginner Skills</h3>
+          <p>Master the fundamentals: stance, edging, deep-water starts, and board control. Build a solid foundation before hitting bigger wakes.</p>
+          <span class="card-link">Learn More →</span>
+        </a>
+        <a href="tricks.html" class="feature-card feature-card--accent">
+          <div class="feature-icon">🚀</div>
+          <h3>Trick Progression</h3>
+          <p>From ollies and surface tricks to inverts and handle passes. A structured path to unlock every aerial maneuver.</p>
+          <span class="card-link">Learn More →</span>
+        </a>
+        <a href="contact.html" class="feature-card">
+          <div class="feature-icon">🎽</div>
+          <h3>Gear & Safety</h3>
+          <p>Choose the right board, bindings, and life vest. Understand boat wake settings and rope lengths for your level.</p>
+          <span class="card-link">Learn More →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY SECTION -->
+  <section class="why">
+    <div class="container why-inner">
+      <div class="why-text">
+        <span class="section-tag">WHY WAKEBOARD101</span>
+        <h2>Built by riders,<br>for riders.</h2>
+        <p>Every drill, tip, and progression guide comes from years on the water — not a textbook. We break down the physics of edging, the body mechanics of inverts, and the mental game of committing to new tricks.</p>
+        <ul class="why-list">
+          <li>✓ Structured skill trees for every level</li>
+          <li>✓ Video breakdowns & slow-motion analysis</li>
+          <li>✓ Safety-first approach to progression</li>
+          <li>✓ Gear guides updated every season</li>
+        </ul>
+        <a href="beginner.html" class="btn-outline">Start Your Journey</a>
+      </div>
+      <div class="why-img-wrap">
+        <img src="https://images.unsplash.com/photo-1530870110042-98b2cb110834?w=700&q=80" alt="Wakeboarding action" class="why-img" />
+      </div>
+    </div>
+  </section>
+
+  <!-- QUICK TIPS -->
+  <section class="tips">
+    <div class="container">
+      <span class="section-tag" style="color:#fff;">QUICK TIPS</span>
+      <h2 class="tips-title">Start Strong</h2>
+      <div class="tips-grid">
+        <div class="tip-card">
+          <span class="tip-num">01</span>
+          <h4>Keep knees bent</h4>
+          <p>Soft knees absorb the wake's impact and give you balance when the water gets choppy.</p>
+        </div>
+        <div class="tip-card">
+          <span class="tip-num">02</span>
+          <h4>Let the boat do the work</h4>
+          <p>Don't pull the rope — maintain consistent edge pressure and let the boat's momentum carry you up.</p>
+        </div>
+        <div class="tip-card">
+          <span class="tip-num">03</span>
+          <h4>Eyes on the horizon</h4>
+          <p>Where your head goes, your body follows. Look forward, not down at the board.</p>
+        </div>
+        <div class="tip-card">
+          <span class="tip-num">04</span>
+          <h4>Commit to the edge</h4>
+          <p>Half-hearted edge cuts cause crashes. Load the line with confidence and hold through the wake.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">
+        <span class="logo-icon">🌊</span> Wakeboard<strong>101</strong>
+      </div>
+      <nav class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="beginner.html">Beginner Skills</a>
+        <a href="tricks.html">Trick Progression</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <p class="footer-copy">© 2026 Wakeboard101. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
